@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         EdgenuityTweaks
-// @namespace    https://landen.tk/
+// @namespace    https://landen.gq/
 // @version      1.2.8
 // @description  Adds tweaks to edgenuity
 // @author       Landen Powell
