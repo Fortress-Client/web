@@ -1,0 +1,28 @@
+body{
+    background-color: #222;
+    text-align: center;
+    color: rgb(249, 166, 25);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#title {
+    font-size: 3vw;
+}
+.step {
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+button {
+    border: 1px solid rgb(53, 51, 51);
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 5px inset; 
+    background-color: rgb(39, 39, 39); 
+    color: rgb(249, 166, 25);
+    border-radius: 3px;
+    width: 20%;
+    height: 40px;
+}
+#copyright {
+    color: gray;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+}
