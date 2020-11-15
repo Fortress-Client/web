@@ -88,7 +88,7 @@
 
     document.getElementsByClassName("mainfoot")[0].appendChild(window.tweaksbutton)
     // Build main menu
-    RenderPane("EdgenTweaks", "tweaksmenu", "50%", "50%", "20vh", "25%")
+    RenderPane("EdgenuityTweaks", "tweaksmenu", "50%", "50%", "20vh", "25%")
     // Menu Entrys
     document.getElementById("tweaksmenu").appendChild(BuildMenuEntry("Auto Advance", "Advance to the next portion of the course automatically when it becomes available", "AutoAdvance.tickbox"))
     document.getElementById("tweaksmenu").appendChild(BuildMenuEntry("Auto Complete Vocab","Automatically completes vocab assignments","AutoCompleteVocabTickbox"))
@@ -102,7 +102,7 @@
     document.getElementById("practiceconfig").appendChild(BuildMenuEntry("Guess thru Assignments", "Guesses thru assignments. This is highly discouraged", "guessassignments"))
     // window.copyright
     window.copyright = document.createElement("p")
-    window.copyright.innerHTML = "EdgenuityTweaks Version 1.2.8 by Landen Powell (<a href='https://host.gradyn.com/edgentweaks/support.html'>Support the project!</a>)"
+    window.copyright.innerHTML = "EdgenuityTweaks Version 1.2.8 by Landen Powell (<a href='https://landen.gq/support'>Support the project!</a>)"
     window.copyright.style.color = "gray"
     window.copyright.style.width = "100%"
     document.getElementById("tweaksmenu").append(window.copyright)
